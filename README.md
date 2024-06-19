@@ -70,5 +70,12 @@ Dataset variables:
     congestion_surcharge - Total amount collected in trip for NYS congestion surcharge.
     airport_fee - For pick up only at LaGuardia and John F. Kennedy Airports.
 
-## Functions
+## Functions Defined
 
+get_request(item):
+    Accepts an api url and returns a dataframe object.
+
+
+## Project Function
+
+The project goes through the Data Wrangling phases, first gathering the data and viewing basic information about each dataset. After which, we assess the data and list quality and tidiness issues. Then we clean the data and address the individual issues outlined. After that, we update our datastore and answer the research questions.
